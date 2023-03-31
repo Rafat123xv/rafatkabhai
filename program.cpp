@@ -52,8 +52,8 @@ int main()
     student_id = read_string("What is your student id??: ");
     age = read_integer("What is your age: ");
     bird_name = read_string("what is the name of the bird: ");
-    frequency = read_string("what is the frequency of the bird in beating its wings: ");
-    amplitude = read_string("what is the amplitude  of its stroke: ");
+    frequency = read_integer("what is the frequency of the bird in beating its wings: ");
+    amplitude = read_integer("what is the amplitude  of its stroke: ");
 
 
 
@@ -80,9 +80,9 @@ write_line("");
 
 //output two
 
-write_line("");
-write_line("your age in 10 year will be: ");
-write(age + 10);
+write_line(" ");
+write("your age in 10 year will be: ");
+write_line(age + 10);
 
 //SIT102 COMMENT THWE TWO FOLLOWING LINES
 output_air_speed(bird_name,frequency,amplitude);
